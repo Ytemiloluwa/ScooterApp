@@ -18,6 +18,7 @@
 		A78C8519285DB1C500006D26 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C8518285DB1C500006D26 /* AppModel.swift */; };
 		A78C851B285DB1E900006D26 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C851A285DB1E900006D26 /* Scooter.swift */; };
 		A78C851D285DB20300006D26 /* ScooterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C851C285DB20300006D26 /* ScooterAnnotation.swift */; };
+		A78C851F285DB3F400006D26 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C851E285DB3F300006D26 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A78C8518285DB1C500006D26 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		A78C851A285DB1E900006D26 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
 		A78C851C285DB20300006D26 /* ScooterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterAnnotation.swift; sourceTree = "<group>"; };
+		A78C851E285DB3F300006D26 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		A78C8515285DB0AC00006D26 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A78C851E285DB3F300006D26 /* MapView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78C851F285DB3F400006D26 /* MapView.swift in Sources */,
 				A78C851B285DB1E900006D26 /* Scooter.swift in Sources */,
 				A78C8517285DB0FF00006D26 /* extension+Transition.swift in Sources */,
 				A78C84EB285DB03200006D26 /* ContentView.swift in Sources */,
